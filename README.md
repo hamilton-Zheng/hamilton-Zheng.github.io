@@ -8,3 +8,8 @@
 #### 链接[2]
 #### 3.以书中出现的几个主要势力，我分别登记了相关人物，利用上次文本分析的data编程统计了各大势力所属人物出现的频次，并绘制成饼图。
 #### 链接[3]
+
+
+[1]:hamilton-Zheng.github.io/wordcloud.html
+[2]:hamilton-Zheng.github.io/bar_multi_series.html
+[3]:hamilton-Zheng.github.io/customized_pie.html
