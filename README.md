@@ -3,24 +3,24 @@
 ### 1.作业1
 #### 作业描述：这个作业包含三个html文件。
 #### 1.以上次作业的小说词频统计为基础，我制作了小说特殊词词云图，共500个词，采用菱形样式。所谓特殊词即这本小说中特有的设定、概念、人物、地名或者势力派系等.
-#### 链接:https://hamilton-Zheng.github.io/wordcloud.html
+#### 链接： https://hamilton-Zheng.github.io/wordcloud.html
 #### 2.同样以特殊词为基础，我做了词频统计柱状图.
-#### 链接:https://hamilton-Zheng.github.io/bar_multi_series.html
+#### 链接： https://hamilton-Zheng.github.io/bar_multi_series.html
 #### 3.以书中出现的几个主要势力，我分别登记了相关人物，利用上次文本分析的data编程统计了各大势力所属人物出现的频次，并绘制成饼图.
-#### 链接https://hamilton-Zheng.github.io/customized_pie.html
+#### 链接： https://hamilton-Zheng.github.io/customized_pie.html
 
 ### 2.作业2
 #### 作业描述：这个作业包含一个html文件。我通过网络查找资料，用不同连线绘制出中国两条铁路干线：京广线和京包线，并且对全局配置项做了一些设置.
-#### 链接：https://hamilton-Zheng.github.io/geo_line_beijing.html
+#### 链接： https://hamilton-Zheng.github.io/geo_line_beijing.html
 
 ### 3.作业3
 #### 作业描述：这个作业包含两个html文件。
 #### 1.世界地图：我将第二次世界大战的主要参战国：同盟国和轴心国分别标出，并用连线表示他们的作战情况。主要战区有欧洲、太平洋、北非和东亚.
-#### 链接：https://hamilton-Zheng.github.io/world_war_second.html
+#### 链接： https://hamilton-Zheng.github.io/world_war_second.html
 #### 2.中国地图：我将日军侵华的过程按照时间先后次序用连线分批次画出，总共包括5个阶段，时间从19世纪末到20世纪中叶.
-#### 链接：https://hamilton-Zheng.github.io/invading.html
+#### 链接： https://hamilton-Zheng.github.io/invading.html
 
 ### 4.作业4
 #### 作业描述：这个作业包含一个html文件. 我使用了虚假的数据（Faker），制作了一个可拖拽组合图表。其中共有4份图，分别为重叠图表、饼图、水平轴可变的柱状图、地图
 #### 其中重叠图表描述1941年日军和我军的作战投入兵力、投入兵力同比增长和华北月均温，数据为模拟数据；饼图描述日军在五大被侵略地区侵略活动的频次大小，数据为模拟数据；水平轴可变的柱状图描述1941年某月日军月度军饷数据，数据为模拟数据；地图为日军侵华的分批次连线图，共5个阶段，时间从19世纪末到20世纪中叶。
-#### 链接：https://hamilton-Zheng.github.io/可拖拽组合图表.html
+#### 链接： https://hamilton-Zheng.github.io/可拖拽组合图表.html
