@@ -1,0 +1,2083 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/jquery-ui.css">
+
+</head>
+<body>
+    <style>.box {  }; </style>
+        <button onclick="downloadCfg()">Save Config</button>
+    <div class="box">
+                <div id="c6cd25dbcf744b30876cb041c19ae357" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_c6cd25dbcf744b30876cb041c19ae357 = echarts.init(
+            document.getElementById('c6cd25dbcf744b30876cb041c19ae357'), 'white', {renderer: 'canvas'});
+        var option_c6cd25dbcf744b30876cb041c19ae357 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#d14a61",
+        "#675bba",
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u654c\u519b\u6295\u5165\u5175\u529b",
+            "yAxisIndex": 1,
+            "legendHoverLink": true,
+            "data": [
+                18.2,
+                12.7,
+                18.9,
+                11.6,
+                6.2,
+                5.7,
+                9.7,
+                8.4,
+                5.6,
+                7.2,
+                4.7,
+                10.4
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u6211\u519b\u6295\u5165\u5175\u529b",
+            "yAxisIndex": 2,
+            "legendHoverLink": true,
+            "data": [
+                12.2,
+                15.1,
+                1.2,
+                14.4,
+                13,
+                7.2,
+                12.3,
+                6.1,
+                6.2,
+                18.6,
+                2.1,
+                1.3
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u534e\u5317\u6708\u5e73\u5747\u6c14\u6e29",
+            "connectNulls": false,
+            "yAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "1\u6708",
+                    0.1
+                ],
+                [
+                    "2\u6708",
+                    1.1
+                ],
+                [
+                    "3\u6708",
+                    8.7
+                ],
+                [
+                    "4\u6708",
+                    15.9
+                ],
+                [
+                    "5\u6708",
+                    22.2
+                ],
+                [
+                    "6\u6708",
+                    26.0
+                ],
+                [
+                    "7\u6708",
+                    28.4
+                ],
+                [
+                    "8\u6708",
+                    27.3
+                ],
+                [
+                    "9\u6708",
+                    21.7
+                ],
+                [
+                    "10\u6708",
+                    14.6
+                ],
+                [
+                    "11\u6708",
+                    5.5
+                ],
+                [
+                    "12\u6708",
+                    0.3
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u540c\u6bd4\u589e\u957f\u7387",
+            "connectNulls": false,
+            "yAxisIndex": 3,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "1\u6708",
+                    0.094
+                ],
+                [
+                    "2\u6708",
+                    -0.113
+                ],
+                [
+                    "3\u6708",
+                    0.303
+                ],
+                [
+                    "4\u6708",
+                    -0.366
+                ],
+                [
+                    "5\u6708",
+                    -0.204
+                ],
+                [
+                    "6\u6708",
+                    0.078
+                ],
+                [
+                    "7\u6708",
+                    0.097
+                ],
+                [
+                    "8\u6708",
+                    -0.404
+                ],
+                [
+                    "9\u6708",
+                    0.145
+                ],
+                [
+                    "10\u6708",
+                    -0.085
+                ],
+                [
+                    "11\u6708",
+                    0.133
+                ],
+                [
+                    "12\u6708",
+                    -0.17
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u654c\u519b\u6295\u5165\u5175\u529b",
+                "\u6211\u519b\u6295\u5165\u5175\u529b",
+                "\u534e\u5317\u6708\u5e73\u5747\u6c14\u6e29",
+                "\u540c\u6bd4\u589e\u957f\u7387"
+            ],
+            "selected": {
+                "\u654c\u519b\u6295\u5165\u5175\u529b": true,
+                "\u6211\u519b\u6295\u5165\u5175\u529b": true,
+                "\u534e\u5317\u6708\u5e73\u5747\u6c14\u6e29": true,
+                "\u540c\u6bd4\u589e\u957f\u7387": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "1\u6708",
+                "2\u6708",
+                "3\u6708",
+                "4\u6708",
+                "5\u6708",
+                "6\u6708",
+                "7\u6708",
+                "8\u6708",
+                "9\u6708",
+                "10\u6708",
+                "11\u6708",
+                "12\u6708"
+            ]
+        },
+        {
+            "type": "value",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": "black"
+                }
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 12,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "name": "\u6e29\u5ea6",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": "#5793f3"
+                }
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value} \u00b0C"
+            },
+            "inverse": false,
+            "position": "left",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 30,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "\u654c\u519b\u6295\u5165\u5175\u529b",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": "#675bba"
+                }
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value} \u4e07"
+            },
+            "inverse": false,
+            "position": "right",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 20,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "\u6211\u519b\u6295\u5165\u5175\u529b",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": "#d14a61"
+                }
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value} \u4e07"
+            },
+            "inverse": false,
+            "position": "right",
+            "offset": 75,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 20,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "\u540c\u6bd4\u589e\u957f\u7387",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": "#d14a61"
+                }
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value} "
+            },
+            "inverse": false,
+            "position": "right",
+            "offset": 150,
+            "splitNumber": 5,
+            "min": -1,
+            "max": 1,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "1941\u5e74\u65e5\u519b\u6d3b\u52a8(\u6570\u636e\u662f\u5047\u7684)",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "left": "5%",
+            "right": "20%",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        }
+    ]
+};
+        chart_c6cd25dbcf744b30876cb041c19ae357.setOption(option_c6cd25dbcf744b30876cb041c19ae357);
+    </script>
+<br/>                <div id="efbd7b2ce6fe487b846223b6d2141724" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_efbd7b2ce6fe487b846223b6d2141724 = echarts.init(
+            document.getElementById('efbd7b2ce6fe487b846223b6d2141724'), 'white', {renderer: 'canvas'});
+        var option_efbd7b2ce6fe487b846223b6d2141724 = {
+    "backgroundColor": "#2c343c",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "name": "\u88ab\u4fb5\u7565\u5730\u533a",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u534e\u5317\u5730\u533a",
+                    "value": 4370
+                },
+                {
+                    "name": "\u534e\u4e2d\u5730\u533a",
+                    "value": 2948
+                },
+                {
+                    "name": "\u9102\u8c6b\u7696\u5730\u533a",
+                    "value": 2601
+                },
+                {
+                    "name": "\u4e1c\u5357\u6cbf\u6d77\u5730\u533a",
+                    "value": 2561
+                },
+                {
+                    "name": "\u4e24\u5e7f\u5730\u533a",
+                    "value": 2429
+                }
+            ],
+            "radius": [
+                "30%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "roseType": "area",
+            "label": {
+                "show": true,
+                "position": "top",
+                "color": "rgba(255, 255, 255, 0.3)",
+                "margin": 8
+            },
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": "{a} <br/>{b}: {c} ({d}%)",
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u534e\u5317\u5730\u533a",
+                "\u534e\u4e2d\u5730\u533a",
+                "\u9102\u8c6b\u7696\u5730\u533a",
+                "\u4e1c\u5357\u6cbf\u6d77\u5730\u533a",
+                "\u4e24\u5e7f\u5730\u533a"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u88ab\u4fb5\u7565\u5730\u533a",
+            "top": "20",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "color": "#fff"
+            }
+        }
+    ]
+};
+        chart_efbd7b2ce6fe487b846223b6d2141724.setOption(option_efbd7b2ce6fe487b846223b6d2141724);
+    </script>
+<br/>                <div id="dc7e1b8a97fb4eab8d484beca7957b07" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_dc7e1b8a97fb4eab8d484beca7957b07 = echarts.init(
+            document.getElementById('dc7e1b8a97fb4eab8d484beca7957b07'), 'white', {renderer: 'canvas'});
+        var option_dc7e1b8a97fb4eab8d484beca7957b07 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u6708\u5ea6\u519b\u9977\u6d88\u8017\u60c5\u51b5",
+            "legendHoverLink": true,
+            "data": [
+                9,
+                27,
+                24,
+                16,
+                21,
+                5,
+                21,
+                8,
+                29,
+                21,
+                23,
+                26,
+                19,
+                3,
+                4,
+                14,
+                12,
+                22,
+                12,
+                12,
+                27,
+                24,
+                1,
+                1,
+                21,
+                4,
+                2,
+                17,
+                23,
+                12
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "cross"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6708\u5ea6\u519b\u9977\u6d88\u8017\u60c5\u51b5"
+            ],
+            "selected": {
+                "\u6708\u5ea6\u519b\u9977\u6d88\u8017\u60c5\u51b5": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "0\u5929",
+                "1\u5929",
+                "2\u5929",
+                "3\u5929",
+                "4\u5929",
+                "5\u5929",
+                "6\u5929",
+                "7\u5929",
+                "8\u5929",
+                "9\u5929",
+                "10\u5929",
+                "11\u5929",
+                "12\u5929",
+                "13\u5929",
+                "14\u5929",
+                "15\u5929",
+                "16\u5929",
+                "17\u5929",
+                "18\u5929",
+                "19\u5929",
+                "20\u5929",
+                "21\u5929",
+                "22\u5929",
+                "23\u5929",
+                "24\u5929",
+                "25\u5929",
+                "26\u5929",
+                "27\u5929",
+                "28\u5929",
+                "29\u5929"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "\u6708\u5ea6\u519b\u9977",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": "#d14a61"
+                }
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}"
+            },
+            "inverse": false,
+            "position": "left",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 30,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Bar-DataZoom\uff08slider-\u6c34\u5e73\uff09",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_dc7e1b8a97fb4eab8d484beca7957b07.setOption(option_dc7e1b8a97fb4eab8d484beca7957b07);
+    </script>
+<br/>                <div id="dd8162f2edf5426d80c15001b06b109e" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_dd8162f2edf5426d80c15001b06b109e = echarts.init(
+            document.getElementById('dd8162f2edf5426d80c15001b06b109e'), 'white', {renderer: 'canvas'});
+        var option_dd8162f2edf5426d80c15001b06b109e = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "yellow",
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Japan",
+                    "value": [
+                        138.25,
+                        36.2,
+                        38
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u53f0\u6e7e",
+                    "value": [
+                        121.509062,
+                        25.044332,
+                        1894
+                    ]
+                },
+                {
+                    "name": "\u65c5\u987a",
+                    "value": [
+                        121.27,
+                        38.82,
+                        1905
+                    ]
+                },
+                {
+                    "name": "\u80f6\u5dde",
+                    "value": [
+                        120.03336,
+                        36.264622,
+                        1919
+                    ]
+                },
+                {
+                    "name": "\u8fbd\u5b81",
+                    "value": [
+                        123.42944,
+                        41.835441,
+                        1931
+                    ]
+                },
+                {
+                    "name": "\u9ed1\u9f99\u6c5f",
+                    "value": [
+                        126.661669,
+                        45.742347,
+                        1931
+                    ]
+                },
+                {
+                    "name": "\u5409\u6797",
+                    "value": [
+                        125.32599,
+                        43.896536,
+                        1931
+                    ]
+                },
+                {
+                    "name": "\u4e0a\u6d77",
+                    "value": [
+                        121.473701,
+                        31.230416,
+                        1932
+                    ]
+                },
+                {
+                    "name": "\u5317\u4eac",
+                    "value": [
+                        116.407526,
+                        39.90403,
+                        1937
+                    ]
+                },
+                {
+                    "name": "\u5929\u6d25",
+                    "value": [
+                        117.200983,
+                        39.084158,
+                        1937
+                    ]
+                },
+                {
+                    "name": "\u6cb3\u5317",
+                    "value": [
+                        114.468664,
+                        38.037057,
+                        1937
+                    ]
+                },
+                {
+                    "name": "\u6cb3\u5357",
+                    "value": [
+                        113.753602,
+                        34.765515,
+                        1937
+                    ]
+                },
+                {
+                    "name": "\u5c71\u4e1c",
+                    "value": [
+                        117.020359,
+                        36.66853,
+                        1937
+                    ]
+                },
+                {
+                    "name": "\u56db\u5ddd",
+                    "value": [
+                        104.075931,
+                        30.651651,
+                        1937
+                    ]
+                },
+                {
+                    "name": "\u6c5f\u82cf",
+                    "value": [
+                        118.763232,
+                        32.061707,
+                        1937
+                    ]
+                },
+                {
+                    "name": "\u6d59\u6c5f",
+                    "value": [
+                        120.152791,
+                        30.267446,
+                        1937
+                    ]
+                },
+                {
+                    "name": "\u798f\u5efa",
+                    "value": [
+                        119.295144,
+                        26.100779,
+                        1937
+                    ]
+                },
+                {
+                    "name": "\u4e0a\u6d77",
+                    "value": [
+                        121.473701,
+                        31.230416,
+                        1937
+                    ]
+                },
+                {
+                    "name": "\u5f90\u5dde",
+                    "value": [
+                        117.2,
+                        34.26,
+                        1938
+                    ]
+                },
+                {
+                    "name": "\u5f00\u5c01",
+                    "value": [
+                        114.35,
+                        34.79,
+                        1938
+                    ]
+                },
+                {
+                    "name": "\u6b66\u6c49",
+                    "value": [
+                        114.31,
+                        30.52,
+                        1938
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u5dde",
+                    "value": [
+                        113.23,
+                        23.16,
+                        1938
+                    ]
+                },
+                {
+                    "name": "\u6d77\u5357",
+                    "value": [
+                        110.349228,
+                        20.017377,
+                        1939
+                    ]
+                },
+                {
+                    "name": "\u5357\u5b81",
+                    "value": [
+                        108.33,
+                        22.84,
+                        1939
+                    ]
+                },
+                {
+                    "name": "\u91cd\u5e86",
+                    "value": [
+                        106.551556,
+                        29.563009,
+                        1940
+                    ]
+                },
+                {
+                    "name": "\u90d1\u5dde",
+                    "value": [
+                        113.65,
+                        34.76,
+                        1944
+                    ]
+                },
+                {
+                    "name": "\u957f\u6c99",
+                    "value": [
+                        113,
+                        28.21,
+                        1944
+                    ]
+                },
+                {
+                    "name": "\u8861\u9633",
+                    "value": [
+                        112.37,
+                        26.53,
+                        1944
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u897f",
+                    "value": [
+                        108.327546,
+                        22.815478,
+                        1943
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u65e9\u671f\u4fb5\u7565",
+            "coordinateSystem": "geo",
+            "zlevel": 4,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "green",
+                "symbol": "diamond",
+                "symbolSize": 6
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Japan->\u53f0\u6e7e",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            121.509062,
+                            25.044332
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u65c5\u987a",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            121.27,
+                            38.82
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u80f6\u5dde",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            120.03336,
+                            36.264622
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.25,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u5206\u88c2\u4e1c\u5317",
+            "coordinateSystem": "geo",
+            "zlevel": 5,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "blue",
+                "symbol": "diamond",
+                "symbolSize": 6
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Japan->\u8fbd\u5b81",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            123.42944,
+                            41.835441
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u9ed1\u9f99\u6c5f",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            126.661669,
+                            45.742347
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u5409\u6797",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            125.32599,
+                            43.896536
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u4e0a\u6d77",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            121.473701,
+                            31.230416
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.25,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u5168\u9762\u4fb5\u534e",
+            "coordinateSystem": "geo",
+            "zlevel": 6,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "red",
+                "symbol": "diamond",
+                "symbolSize": 6
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Japan->\u5317\u4eac",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            116.407526,
+                            39.90403
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u5929\u6d25",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            117.200983,
+                            39.084158
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u6cb3\u5317",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            114.468664,
+                            38.037057
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u6cb3\u5357",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            113.753602,
+                            34.765515
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u5c71\u4e1c",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            117.020359,
+                            36.66853
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u56db\u5ddd",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            104.075931,
+                            30.651651
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u6c5f\u82cf",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            118.763232,
+                            32.061707
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u6d59\u6c5f",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            120.152791,
+                            30.267446
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u798f\u5efa",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            119.295144,
+                            26.100779
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u4e0a\u6d77",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            121.473701,
+                            31.230416
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u5f90\u5dde",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            117.2,
+                            34.26
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u5f00\u5c01",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            114.35,
+                            34.79
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u6b66\u6c49",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            114.31,
+                            30.52
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u5e7f\u5dde",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            113.23,
+                            23.16
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.25,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u80f6\u7740\u9636\u6bb5",
+            "coordinateSystem": "geo",
+            "zlevel": 7,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "black",
+                "symbol": "diamond",
+                "symbolSize": 6
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Japan->\u6d77\u5357",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            110.349228,
+                            20.017377
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u5357\u5b81",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            108.33,
+                            22.84
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u91cd\u5e86",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            106.551556,
+                            29.563009
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.25,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u53cd\u653b\u9636\u6bb5",
+            "coordinateSystem": "geo",
+            "zlevel": 8,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "orange",
+                "symbol": "diamond",
+                "symbolSize": 6
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Japan->\u90d1\u5dde",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            113.65,
+                            34.76
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u957f\u6c99",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            113,
+                            28.21
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u8861\u9633",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            112.37,
+                            26.53
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->\u5e7f\u897f",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            108.327546,
+                            22.815478
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.25,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                "",
+                "\u65e9\u671f\u4fb5\u7565",
+                "\u5206\u88c2\u4e1c\u5317",
+                "\u5168\u9762\u4fb5\u534e",
+                "\u80f6\u7740\u9636\u6bb5",
+                "\u53cd\u653b\u9636\u6bb5"
+            ],
+            "selected": {
+                "": true,
+                "\u65e9\u671f\u4fb5\u7565": true,
+                "\u5206\u88c2\u4e1c\u5317": true,
+                "\u5168\u9762\u4fb5\u534e": true,
+                "\u80f6\u7740\u9636\u6bb5": true,
+                "\u53cd\u653b\u9636\u6bb5": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u65e5\u672c\u4fb5\u534e\u8def\u7ebf",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 1870,
+        "max": 1945,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "geo": {
+        "map": "china",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "itemStyle": {
+            "color": "grey",
+            "borderColor": "black"
+        },
+        "emphasis": {}
+    }
+};
+        chart_dd8162f2edf5426d80c15001b06b109e.setOption(option_dd8162f2edf5426d80c15001b06b109e);
+    </script>
+<br/>    </div>
+    <script>
+            $('#c6cd25dbcf744b30876cb041c19ae357').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#c6cd25dbcf744b30876cb041c19ae357>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#c6cd25dbcf744b30876cb041c19ae357'), function() { chart_c6cd25dbcf744b30876cb041c19ae357.resize()});
+            $('#efbd7b2ce6fe487b846223b6d2141724').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#efbd7b2ce6fe487b846223b6d2141724>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#efbd7b2ce6fe487b846223b6d2141724'), function() { chart_efbd7b2ce6fe487b846223b6d2141724.resize()});
+            $('#dc7e1b8a97fb4eab8d484beca7957b07').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#dc7e1b8a97fb4eab8d484beca7957b07>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#dc7e1b8a97fb4eab8d484beca7957b07'), function() { chart_dc7e1b8a97fb4eab8d484beca7957b07.resize()});
+            $('#dd8162f2edf5426d80c15001b06b109e').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#dd8162f2edf5426d80c15001b06b109e>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#dd8162f2edf5426d80c15001b06b109e'), function() { chart_dd8162f2edf5426d80c15001b06b109e.resize()});
+            var charts_id = ['c6cd25dbcf744b30876cb041c19ae357','efbd7b2ce6fe487b846223b6d2141724','dc7e1b8a97fb4eab8d484beca7957b07','dd8162f2edf5426d80c15001b06b109e'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+</html>

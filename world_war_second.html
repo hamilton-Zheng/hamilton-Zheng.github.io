@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="14a5ad6d23b14d78afa351d2cd5efde0" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_14a5ad6d23b14d78afa351d2cd5efde0 = echarts.init(
+            document.getElementById('14a5ad6d23b14d78afa351d2cd5efde0'), 'white', {renderer: 'canvas'});
+        var option_14a5ad6d23b14d78afa351d2cd5efde0 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "red",
+        "blue",
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "name": "\u540c\u76df\u56fd",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "United States",
+                    "value": [
+                        -95.71,
+                        37.09,
+                        332
+                    ]
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": [
+                        -3.44,
+                        55.38,
+                        67
+                    ]
+                },
+                {
+                    "name": "Russia",
+                    "value": [
+                        105.32,
+                        61.52,
+                        286
+                    ]
+                },
+                {
+                    "name": "China",
+                    "value": [
+                        104.2,
+                        35.86,
+                        1400
+                    ]
+                },
+                {
+                    "name": "France",
+                    "value": [
+                        2.21,
+                        46.23,
+                        67
+                    ]
+                },
+                {
+                    "name": "Poland",
+                    "value": [
+                        19.15,
+                        51.92,
+                        38
+                    ]
+                },
+                {
+                    "name": "Australia",
+                    "value": [
+                        133.78,
+                        -25.27,
+                        25
+                    ]
+                },
+                {
+                    "name": "Algeria",
+                    "value": [
+                        1.66,
+                        28.03,
+                        42
+                    ]
+                },
+                {
+                    "name": "Libya",
+                    "value": [
+                        17.23,
+                        26.34,
+                        7
+                    ]
+                },
+                {
+                    "name": "Egypt",
+                    "value": [
+                        30.8,
+                        26.82,
+                        100
+                    ]
+                },
+                {
+                    "name": "india",
+                    "value": [
+                        78.96,
+                        20.59,
+                        1200
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "effectScatter",
+            "name": "\u8f74\u5fc3\u56fd",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Germany",
+                    "value": [
+                        10.45,
+                        51.17,
+                        83
+                    ]
+                },
+                {
+                    "name": "Japan",
+                    "value": [
+                        138.25,
+                        36.2,
+                        126
+                    ]
+                },
+                {
+                    "name": "Italy",
+                    "value": [
+                        12.57,
+                        41.87,
+                        60
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u65e5\u672c\u4fb5\u7565\u8def\u7ebf",
+            "coordinateSystem": "geo",
+            "zlevel": 4,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "yellow",
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Japan->United States",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            -95.71,
+                            37.09
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->Russia",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            105.32,
+                            61.52
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->China",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "Japan->Australia",
+                    "coords": [
+                        [
+                            138.25,
+                            36.2
+                        ],
+                        [
+                            133.78,
+                            -25.27
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u5fb7\u56fd\u4fb5\u7565\u8def\u7ebf",
+            "coordinateSystem": "geo",
+            "zlevel": 5,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "green",
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Germany->United Kingdom",
+                    "coords": [
+                        [
+                            10.45,
+                            51.17
+                        ],
+                        [
+                            -3.44,
+                            55.38
+                        ]
+                    ]
+                },
+                {
+                    "name": "Germany->Russia",
+                    "coords": [
+                        [
+                            10.45,
+                            51.17
+                        ],
+                        [
+                            105.32,
+                            61.52
+                        ]
+                    ]
+                },
+                {
+                    "name": "Germany->France",
+                    "coords": [
+                        [
+                            10.45,
+                            51.17
+                        ],
+                        [
+                            2.21,
+                            46.23
+                        ]
+                    ]
+                },
+                {
+                    "name": "Germany->Poland",
+                    "coords": [
+                        [
+                            10.45,
+                            51.17
+                        ],
+                        [
+                            19.15,
+                            51.92
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u610f\u5927\u5229(\u88ab)\u4fb5\u7565\u8def\u7ebf",
+            "coordinateSystem": "geo",
+            "zlevel": 6,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "pink",
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Italy->United Kingdom",
+                    "coords": [
+                        [
+                            12.57,
+                            41.87
+                        ],
+                        [
+                            -3.44,
+                            55.38
+                        ]
+                    ]
+                },
+                {
+                    "name": "Italy->France",
+                    "coords": [
+                        [
+                            12.57,
+                            41.87
+                        ],
+                        [
+                            2.21,
+                            46.23
+                        ]
+                    ]
+                },
+                {
+                    "name": "Italy->Poland",
+                    "coords": [
+                        [
+                            12.57,
+                            41.87
+                        ],
+                        [
+                            19.15,
+                            51.92
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u5176\u4ed6\u6218\u573a",
+            "coordinateSystem": "geo",
+            "zlevel": 7,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "deepbrown",
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Germany->Algeria",
+                    "coords": [
+                        [
+                            10.45,
+                            51.17
+                        ],
+                        [
+                            1.66,
+                            28.03
+                        ]
+                    ]
+                },
+                {
+                    "name": "United Kingdom->Algeria",
+                    "coords": [
+                        [
+                            -3.44,
+                            55.38
+                        ],
+                        [
+                            1.66,
+                            28.03
+                        ]
+                    ]
+                },
+                {
+                    "name": "United States->Algeria",
+                    "coords": [
+                        [
+                            -95.71,
+                            37.09
+                        ],
+                        [
+                            1.66,
+                            28.03
+                        ]
+                    ]
+                },
+                {
+                    "name": "Germany->Libya",
+                    "coords": [
+                        [
+                            10.45,
+                            51.17
+                        ],
+                        [
+                            17.23,
+                            26.34
+                        ]
+                    ]
+                },
+                {
+                    "name": "United Kingdom->Libya",
+                    "coords": [
+                        [
+                            -3.44,
+                            55.38
+                        ],
+                        [
+                            17.23,
+                            26.34
+                        ]
+                    ]
+                },
+                {
+                    "name": "United States->Libya",
+                    "coords": [
+                        [
+                            -95.71,
+                            37.09
+                        ],
+                        [
+                            17.23,
+                            26.34
+                        ]
+                    ]
+                },
+                {
+                    "name": "Germany->Egypt",
+                    "coords": [
+                        [
+                            10.45,
+                            51.17
+                        ],
+                        [
+                            30.8,
+                            26.82
+                        ]
+                    ]
+                },
+                {
+                    "name": "United Kingdom->Egypt",
+                    "coords": [
+                        [
+                            -3.44,
+                            55.38
+                        ],
+                        [
+                            30.8,
+                            26.82
+                        ]
+                    ]
+                },
+                {
+                    "name": "United States->Egypt",
+                    "coords": [
+                        [
+                            -95.71,
+                            37.09
+                        ],
+                        [
+                            30.8,
+                            26.82
+                        ]
+                    ]
+                },
+                {
+                    "name": "Germany->india",
+                    "coords": [
+                        [
+                            10.45,
+                            51.17
+                        ],
+                        [
+                            78.96,
+                            20.59
+                        ]
+                    ]
+                },
+                {
+                    "name": "United Kingdom->india",
+                    "coords": [
+                        [
+                            -3.44,
+                            55.38
+                        ],
+                        [
+                            78.96,
+                            20.59
+                        ]
+                    ]
+                },
+                {
+                    "name": "United States->india",
+                    "coords": [
+                        [
+                            -95.71,
+                            37.09
+                        ],
+                        [
+                            78.96,
+                            20.59
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u540c\u76df\u56fd",
+                "\u8f74\u5fc3\u56fd",
+                "\u65e5\u672c\u4fb5\u7565\u8def\u7ebf",
+                "\u5fb7\u56fd\u4fb5\u7565\u8def\u7ebf",
+                "\u610f\u5927\u5229(\u88ab)\u4fb5\u7565\u8def\u7ebf",
+                "\u5176\u4ed6\u6218\u573a"
+            ],
+            "selected": {
+                "\u540c\u76df\u56fd": true,
+                "\u8f74\u5fc3\u56fd": true,
+                "\u65e5\u672c\u4fb5\u7565\u8def\u7ebf": true,
+                "\u5fb7\u56fd\u4fb5\u7565\u8def\u7ebf": true,
+                "\u610f\u5927\u5229(\u88ab)\u4fb5\u7565\u8def\u7ebf": true,
+                "\u5176\u4ed6\u6218\u573a": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u4e16\u754c\u4e8c\u6218",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 10,
+        "max": 1000,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "itemStyle": {
+            "color": "grey",
+            "borderColor": "black"
+        },
+        "emphasis": {}
+    }
+};
+        chart_14a5ad6d23b14d78afa351d2cd5efde0.setOption(option_14a5ad6d23b14d78afa351d2cd5efde0);
+    </script>
+</body>
+</html>
