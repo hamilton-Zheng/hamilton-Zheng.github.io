@@ -33,4 +33,8 @@
 ### 2.作业2
 #### 作业描述：这个作业包含一个html文件
 #### 我利用bootstrap表单进行美化，实现了自己的搜索引擎界面设计。背后的搜索引擎由百度倾情提供（其实就是我们薅羊毛……）
-#### 链接： https://hamilton-Zheng.github.io/我的搜索引擎.html
+#### 链接： https://hamilton-Zheng.github.io/MyEngine.html
+### 3.作业3
+#### 作业描述：这个作业包含一个html文件
+#### 在这个网页中，我尝试了一些css的功能，达到了美化html界面的目的（虽然还是感觉很丑）。内容主体是电影《肖申克的救赎》，包括网上获得和自己撰写的文本。
+#### 链接： https://hamilton-Zheng.github.io/CSS_website.html
