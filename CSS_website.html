@@ -4,6 +4,38 @@
     <meta charset="utf-8"/>
     <title>网页Main_2010305133</title>
     <style type="text/css">
+    .select{
+    display: inline-block;
+    position: relative;
+      }
+      .selecttitle{
+          background-color: gray;
+                  color:black;
+                  padding: 50px 100px;
+                  border: 0px;
+                  font-size: 14px;
+                  border: black;
+                  cursor: pointer;
+      }
+      .selectcol{ 
+          display:none;
+          position: absolute;
+          background-color: lightblue;
+          min-width: 256px;
+          box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.2);
+      }
+      .selectcol a{
+          color: black;
+          padding: 16px 16px;
+          text-decoration: none;
+          display:block;
+      }
+      .selectcol a:hover{
+          background-color: aqua;
+      }
+      .select:hover .selectcol{display: block;}
+      .select:hover .selecttitle{background-color: blueviolet;}
+
      #bigtitle{
        outline-style: outset;outline-width:20px;outline-color:crimson;margin-top: 40px;margin-left: 500px;margin-right: 500px;
      }
@@ -29,7 +61,6 @@
      dd.basicInfo-itemvalue{font-size: 15px; color: orangered;}
      #wrap{white-space: normal;width: 180px;}
      </style>
-     <link href="drop.css" rel="stylesheet" type="text/css"/>
   </head>
 <div class="select">
   <button class="selecttitle">剧情介绍</button>
